@@ -19,7 +19,7 @@
             <form action="ControladorIS" name="formularioIS" method="POST" class="tab">
             <table class="tab">
             <tr>
-                <td>Usuario: </td>
+                <td>UsuarioP: </td>
                 <td><input type="text" name="nomSU" draggable="return false"/></td>
             </tr>
             <tr>
