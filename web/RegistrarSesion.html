@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Registrar Sesión</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos3.css">
+        <script type="text/javascript" src="js/validar1.js"></script>
+    </head>
+    <body>
+        <div class="is">
+            <br>
+        <h1>Crea tu Sesión!!!!!</h1>
+        <form name="formulario1" method="POST" action="GuardarU" class="tab">
+            <table >
+                <tr>
+                    <td>Nombre: </td>
+                    <td><input type="text" name="nomU"/></td>
+                </tr>
+                <tr>
+                    <td>Apellido Paterno: </td>
+                    <td><input type="text" name="appatU"/></td>
+                </tr>
+                <tr>
+                    <td>Apellido Materno: </td>
+                    <td><input type="text" name="apmatU"/></td>
+                </tr>
+                <tr>
+                    <td>CURP: </td>
+                    <td><input type="text" name="curpU"/></td>
+                </tr>
+                <tr>
+                    <td>Colonia: </td>
+                    <td><input type="text" name="colDU" size="15" placeholder="Colonia"/></td>
+                </tr>
+                <tr>
+                    <td>Calle: </td>
+                    <td><input type="text" name="calleDU" size="10" placeholder="Calle"/></td>
+                </tr>
+                <tr>
+                    <td>Fecha de nacimiento, año: </td>
+                    <td><input type="text" name='anoFU' size="4" placeholder="Año" /></td>
+                </tr>
+                <tr>
+                    <td>Fecha de nacimiento, mes: </td>
+                    <td><input type="text" name="mesFU" size="2" placeholder="Mes"/></td>
+                </tr>
+                <tr>
+                    <td>Fecha de nacimiento, día: </td>
+                    <td><input type="text" name="diaFU" size="2" placeholder="Día"/></td>
+                </tr>
+                <tr>
+                    <td>CP: </td>
+                    <td><input type="text" name="cpU" size="6"/></td>
+                </tr>
+                <tr>
+                    <td>Telefono: </td>
+                    <td id="nT">55<input type="text" name="telU" size="8"/></td>
+                </tr>
+
+                <tr>
+                    <td>Ingresa tu nombre de usuario: </td>
+                    <td><input type="text" name="nomCU"/></td>
+                </tr>
+                <tr>
+                    <td>Ingresa tu contraseña: </td>
+                    <td><input type="text" name="contU"/></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" name="botonRU" value="Aceptar" onclick="return validacionRS()" />
+        </form><br>
+        <a href="IniciarSesion.jsp">Ya tienes cuenta?</a><br>
+        <a href="index.html">Regresar al index</a>
+        </div>
+    </body>
+</html>
